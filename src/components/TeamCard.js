@@ -1,5 +1,8 @@
 import React from "react";
 import "./TeamCard.css";
+import Linkedin from '../assets/linkedin.png'
+import instagram from '../assets/instagram.png'
+
 
 const TeamCard = (props) => {
   return (
@@ -20,10 +23,10 @@ const TeamCard = (props) => {
           <p className="branch">{props.branch}</p>
           <div className="social-icons">
             <a href={props.insta} className="icon instagram">
-              <i className="fab fa-instagram"></i>
+              <img src={instagram}/>
             </a>
             <a href={props.ln} className="icon linkedin">
-              <i className="fab fa-linkedin-in"></i>
+              <img src={Linkedin}/>
             </a>
           </div>
         </div>
