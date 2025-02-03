@@ -6,7 +6,6 @@ import OurTheme from './components/OurTheme';
 import Megaevents from './components/Megaevents';
 import PastEvents from './components/PastEvents';
 import Footer from './components/Footer';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 import Sponsors from './components/Sponsors';
 
 function App() {
