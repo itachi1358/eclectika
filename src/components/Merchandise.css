@@ -1,0 +1,127 @@
+/* Use a class for the wrapper to scope styles */
+.merchandise-wrapper {
+    position: relative; /* Relative to its parent */
+    background-image: url('../assets/Team_Home_Screen.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Adjust width for responsiveness */
+    margin: 20px 0;
+}
+
+.image img {
+    max-width: 90%; /* Ensure image scales within container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional for rounded corners */
+}
+
+.description {
+    font-size: 1.2rem;
+    width: 90%; /* Adjust width for smaller screens */
+    color: white;
+    text-align: center;
+    margin: 20px auto; /* Center text */
+    line-height: 1.5;
+}
+
+.contentq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.btn-p {
+    background-color: #12299e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px; /* Reduce height slightly */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center button text */
+    margin-bottom: 3%;
+    margin-top: 1%;
+    text-decoration: none;
+    font-size: 1rem;
+    outline: none;
+    transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+.btn-p:hover {
+    background-color: #0f2386; /* Darker blue on hover */
+}
+
+.btn-p a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-p button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    .image {
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .btn-p {
+        width: 120px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .btn-p {
+        width: 100px;
+        height: 55px;
+        font-size: 0.8rem;
+    }
+    
+}

@@ -1,0 +1,118 @@
+.cardy{
+    background: #2a2a3b;
+    width: 800px;
+    max-width: 600px;
+    border-radius: 10px;
+    border-top-left-radius: 10px ;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-height: 700px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cardy:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .card-titley {
+    background: #5b5b5b;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .card-contenty {
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping into multiple rows */
+    gap: 10px; /* Add spacing between items */
+    justify-content: center; /* Center the items */
+  }
+  
+  .name-itemy {
+    flex: 1 1 calc(60% - 20px); /* Adjust width dynamically for two columns */
+    max-width: calc(50% - 20px); /* Max width for two-column layout */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #3d3d5c;
+    border-radius: 5px;
+    background: #3a3a4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .name-itemy:hover {
+    background: #636363;
+    transform: scale(1.05);
+  }
+  
+  .name-itemy span {
+    font-weight: bold;
+    color: #cfcfd9;
+  }
+  
+  
+  @media  screen and (max-width: 460px) {
+    .cardy{
+      background: #2a2a3b;
+      width: 300px;
+      height: fit-content;
+      max-height: 900px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .cardy:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    }
+    
+    .card-titley {
+      background: #5b5b5b;
+      color: #fff;
+      padding: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .card-contenty {
+      padding: 20px;
+    }
+    
+    .name-itemy {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #3d3d5c;
+      border-radius: 5px;
+      background: #3a3a4d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1rem;
+    }
+    
+    .name-itemy:hover {
+      background: #636363;
+    }
+    
+    .name-itemy span {
+      font-weight: bold;
+      color: #cfcfd9;
+    }
+
+  }

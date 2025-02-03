@@ -1,0 +1,131 @@
+/* General Navbar Styling */
+.header .navbar {
+  background-color: rgba(0, 0, 0, 0.33);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* Center the container */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: larger;
+}
+
+/* Font */
+@font-face {
+  font-family: disney;
+  src: url('../assets/NewWaltDisneyFontRegular-BPen.ttf');
+}
+
+/* Navbar Container */
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Title on left, items on right */
+}
+
+/* Navbar Title */
+.navbar-title a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: disney;
+}
+
+
+/* Navbar Items */
+.navbar-items {
+  display: flex;
+  gap: 25px; /* Space between nav items */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.navbar-items a{
+  text-decoration: none;
+}
+.navbar-items .nav-link {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  font-family: disney;
+  font-size: 30px;
+}
+
+.navbar-items .nav-link:hover {
+  color: #007bff; /* Blue hover effect */
+  border-bottom: 2px solid rgb(78, 78, 212);
+}
+
+/* Hamburger Menu (for mobile) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 8px;
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: rotate(-45deg);
+  position: relative;
+  bottom: 8px;
+}
+
+/* Mobile Navbar Items */
+.navbar-items.open {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar-items.open .nav-link {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Responsive Styling for Mobile */
+@media (max-width: 768px) {
+  .navbar-items {
+    display: none; /* Hide items initially */
+  }
+
+  .navbar-items .nav-link {
+    font-size: 20px; /* Smaller font on mobile */
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger icon on mobile */
+  }
+}
+  

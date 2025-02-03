@@ -1,0 +1,51 @@
+.complete{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, #353535, #000000);
+    background-position: center;
+    position: sticky;
+}
+.main{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.cardx-container{
+    display: flex;
+    justify-content: center;
+    gap:58px;
+    margin-top: 4%;
+    flex-wrap: wrap;
+}
+
+.heads{
+    margin-top: 8%;
+}
+.core-container{
+    display: flex;
+    justify-content: center;
+    gap:58px;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+/* Keyframe for fade-in and slide-up animation */
+@keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Styling for the text */
+  .animated-text {
+    margin-top: 3%;
+    font-size: 3rem; /* Adjust size as needed */
+    color: #ffffff; /* Choose a color that matches your theme */
+    text-align: center;
+    animation: fadeSlideUp 1s ease-out; /* Duration and easing */
+  }
+  

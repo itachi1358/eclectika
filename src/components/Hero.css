@@ -1,0 +1,7 @@
+@font-face {
+    font-family: disney;
+    src: url('../assets/NewWaltDisneyFontRegular-BPen.ttf');
+  }
+.big{
+    font-size: 50px;
+}

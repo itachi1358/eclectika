@@ -1,0 +1,74 @@
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  position: relative; /* Ensure natural positioning */
+  color: white; /* Text color for better readability */
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Text Container */
+.about-section-text {
+  flex: 1; /* Allow the text section to take equal space */
+  margin-right: 20px; /* Space between text and logo */
+}
+
+.about-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-section-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify; /* Better alignment for longer paragraphs */
+}
+
+/* Logo Container */
+.logo {
+  background-image: url('../assets/logo.png'); /* Ensure correct path */
+  background-size: contain; /* Scale the image proportionally */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  flex: 1; /* Allow the logo to take equal space */
+  margin-top: 20px; /* Optional: Adjust spacing */
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-section h1 {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .about-section-content p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  .logo {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .logo {
+    height: 150px; 
+    width: 100px;
+  }
+
+  .about-section h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-section-content p {
+    font-size: 0.9rem;
+  }
+}
