@@ -89,6 +89,8 @@
     border-radius:12px;
     text-decoration: none;
     color: white;
+    border: none;
+    padding: 10px;
   }
 
   @media screen and (max-width:450px){
