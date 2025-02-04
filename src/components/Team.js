@@ -286,8 +286,8 @@ export default function Team() {
        domain='Event Management'
        image={Balaji}
        branch='Mining Engineering'
-       insta=''
-       ln=''
+       insta='https://www.instagram.com/call___me___balu?igsh=MWhlYndtczduMzZldQ=='
+       ln='https://www.linkedin.com/in/balaji-gopavarapu-642bbb298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
        />
        
 
