@@ -62,7 +62,9 @@ const exe_design = [
   {'Aman Verma': 'Biotech'},
   {'Shubham Kumar': 'Biotech'},
   {'Vinay Chindripu': 'Chemical'},
-  {'Nirjala Jeeyalal': 'Chemical'}
+  {'Nirjala Jeeyalal': 'Chemical'},
+  {'Pranay Rupavath' : 'MME'},
+  
   ];
 
  
@@ -90,8 +92,8 @@ const exe_design = [
     { 'Vijay': 'ECE' },
     { 'Urvi Patel': 'Biomed' },
     { 'Hemanth Borugala': 'ECE' },
-    { 'Vellala Gnana Sree': 'ECE' },
-    { 'Krishneswar': 'Electrical' },
+    { 'Gnana Sree': 'ECE' },
+    { 'Krishneshwar': 'Electrical' },
     { 'Avinash': 'Electrical' },
     { 'Prabhas': 'Electrical' },
     { 'Sucharita': 'Electrical' },
@@ -112,7 +114,8 @@ const exe_design = [
     { 'Bharadwaj': 'Mining' },
     { 'Siddharth Swaroop': 'MME' },
     { 'Nithin Naik': 'Mechanical' },
-    { 'Abhisant': 'Mining' }
+    { 'Abhisant': 'Mining' },
+    { 'Chandrashekar' : 'MME'},
   ]
 
   const exe_pr=[
