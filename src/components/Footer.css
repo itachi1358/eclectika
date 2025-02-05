@@ -21,6 +21,7 @@
   .footer-social {
     flex: 1 1 300px;
     margin: 20px;
+    color: white;
   }
   
   .footer-about h2,

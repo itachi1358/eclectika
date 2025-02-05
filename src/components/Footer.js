@@ -1,5 +1,9 @@
 import React from "react";
 import "./Footer.css";
+import face from '../assets/facebook_icon.png'
+import insta from '../assets/instagram_icon.png'
+import link from '../assets/linkedin_icon.png'
+import tweet from '../assets/twitter_icon.png'
 
 export default function Footer() {
   return (
@@ -15,16 +19,16 @@ export default function Footer() {
           <h2>Follow Us</h2>
           <div className="social-icons">
             <a href="https://www.facebook.com/eclectika.nitrr/" aria-label="Facebook">
-              <i className="fab fa-facebook-f"></i>
+            <img src={face} alt="facebook-circled--v5"/>
             </a>
             <a href="https://x.com/eclectika_nitrr" aria-label="Twitter">
-            <i class="fa-brands fa-x-twitter" style={{'color': '#ffffff'}}></i>
+            <img src={tweet} alt="facebook-circled--v5"/>
             </a>
             <a href="https://www.instagram.com/eclectika_nitrr/" aria-label="Instagram">
-              <i className="fab fa-instagram"></i>
+            <img src={insta} alt="facebook-circled--v5"/>
             </a>
             <a href="https://www.linkedin.com/company/eclectika-nit-raipur/" aria-label="LinkedIn">
-              <i className="fab fa-linkedin-in"></i>
+            <img src={link} alt="facebook-circled--v5"/>
             </a>
           </div>
         </div>
