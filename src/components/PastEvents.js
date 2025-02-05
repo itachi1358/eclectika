@@ -15,7 +15,7 @@ export default function PastEvents() {
       </div>
       <div className="card-container2">
       <PastEventCard backgroundImage={yaseerdesai} title='Yaseer Desai' year='2024'/>
-        <PastEventCard backgroundImage={yuhani} title='Yuhani' year='2023'/>
+        <PastEventCard backgroundImage={yuhani} title='Yohani' year='2023'/>
         <PastEventCard backgroundImage={darshan} title='Darshan Raval' year='2020'/>
         <PastEventCard backgroundImage={salim} title='Salim Sulaiman' year='2018'/>
         <PastEventCard backgroundImage={sachin} title='Sachin Jigar' year='2017'/>

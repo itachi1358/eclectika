@@ -7,6 +7,8 @@ import gagan from '../assets/gagan.jpg'
 import darshan from '../assets/darshan_library.jpg'
 import annapurna from '../assets/annapurna.jpg'
 import abc from '../assets/abc.jpg'
+import sjain from '../assets/sjain.jpeg'
+import { Link } from 'react-router-dom';
 export default function Sponsors() {
   return (
     <div>
@@ -15,6 +17,9 @@ export default function Sponsors() {
       <div className="sponsors">
         <img src={ec_logo} alt="Sponsor 1"/>
 
+        <Link to='https://sjain.io/'>
+        <img src={sjain} alt="sponsor 8"/>
+        </Link>
         <img src={zeeshan} alt="Sponsor 2"/>
 
         <img src={htx} alt="Sponsor 3"/>
