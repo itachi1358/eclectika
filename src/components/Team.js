@@ -61,7 +61,6 @@ const  cores_spons_doc=[
 const exe_design = [
   {'Aman Verma': 'Biotech'},
   {'Shubham Kumar': 'Biotech'},
-  {'Vinay Chindripu': 'Chemical'},
   {'Nirjala Jeeyalal': 'Chemical'},
   {'Pranay Rupavath' : 'MME'},
   
