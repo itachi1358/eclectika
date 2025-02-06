@@ -20,6 +20,8 @@ export default function Sponsors() {
         <Link to='https://sjain.io/'>
         <img src={sjain} alt="sponsor 8"/>
         </Link>
+
+        <img src="https://play-lh.googleusercontent.com/2NbBZEf5FCS4xtbq8I1PsGIa4JcqJixR2KWGGFh10SYmUxoerPW5cv7ZjrNGwSnAh5k" alt="" />
         <img src={zeeshan} alt="Sponsor 2"/>
 
         <img src={htx} alt="Sponsor 3"/>
@@ -27,6 +29,7 @@ export default function Sponsors() {
         <img src={darshan} alt="Sponsor 5"/>
         <img src={annapurna} alt="Sponsor 6"/>
         <img src={abc} alt="Sponsor 7"/>
+
 
         </div>
       </div>
