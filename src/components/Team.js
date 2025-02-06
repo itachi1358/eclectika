@@ -211,7 +211,7 @@ export default function Team() {
       <TeamCard name="Hardhik Gupta"
        domain='Sponsorship'
         image={Hardhik}
-        branch='Metallurgy and Materials Engineering'
+        branch='Biotechnical Engineering'
         insta='https://www.instagram.com/hardikgupta___'
         ln='https://www.linkedin.com/in/hardik-gupta-54087521b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         />
